@@ -9,7 +9,9 @@ int Calculator::pow(int a, int n)
 {
 	int liczba;
 	// ZAIMPLEMENTUJ MNIE ;_;
-	liczba = a^n;
+	for(int i = 1; i <= n; i++)
+		liczba = liczba * a;
+
 	return liczba;
 }
 	
