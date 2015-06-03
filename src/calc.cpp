@@ -2,11 +2,10 @@
 
 int Calculator::pow(int a, int n)
 {
-	int liczba=a;
+	int liczba;
 	// ZAIMPLEMENTUJ MNIE ;_;
-	for(int i = 1; i <= n/2; i++)
-		liczba=liczba*liczba;
-	return -1;
+	liczba = a^n;
+	return liczba;
 }
 	
 int Calculator::fac(int n)
