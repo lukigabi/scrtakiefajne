@@ -1,5 +1,10 @@
 #include "../inc/calc.hpp"
 
+int Calculator::add(int a, int b)
+{
+	return a+b;
+}
+
 int Calculator::pow(int a, int n)
 {
 	int liczba;
@@ -14,5 +19,5 @@ int Calculator::fac(int n)
 	// ZAIMPLEMENTUJ MNIE ;_;
 	for(int i = 1; i <= n; i++)
 		liczba = liczba * i;
-	return -1;
+	return liczba;
 }
